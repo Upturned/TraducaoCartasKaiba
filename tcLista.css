@@ -1,0 +1,136 @@
+body {
+  background-color: rgb(113,183,245);/*rgb(52,65,117);*/
+}
+
+h1 {
+  text-align: center;
+  font-size: 250%;
+  text-shadow: 1px 0 rgb(249,247,250), -1px 0 rgb(249,247,250), 0 1px rgb(249,247,250), 0 -1px rgb(249,247,250),
+               1px 1px rgb(249,247,250), -1px 1px rgb(249,247,250), 1px -1px rgb(249,247,250), -1px -1px rgb(249,247,250);
+  color: rgb(52,65,117);/*rgb(60,110,145);*/
+}
+
+#tDetalhe {
+  font-size: 200%;
+}
+
+.container {
+  border: 2px solid rgb(113,183,245);/*black;*/
+}
+
+.botao {
+  background: #D8A6FF;
+  color: black;
+  border: 2px solid black;
+}
+
+.botao:hover {
+  background: #A32BFF;
+  transform: translate(1px, 1px);
+}
+
+.botao:focus {
+  background: white;
+  border: 3px double black;
+}
+
+.divMaior {
+  width: 90%;
+  height: 60vh;
+  position: absolute;
+  left: 5%;
+  border: 2px solid rgb(52,65,117);
+}
+
+.divMenor {
+  width: 20%;
+  height: 96%;
+  position: absolute;
+  top: 2%;
+}
+
+#col1 {
+  left: 4%;
+}
+
+#col2 {
+  left: 28%;
+}
+
+#col3 {
+  left: 52%;
+}
+
+#col4 {
+  left: 76%;
+}
+
+#caixaDecks {
+  position: absolute;
+  width: 30%;
+  height: 10%;
+  transform: translate(115%, 480%);
+  font-size: 120%;
+  text-align: center;
+}
+
+.nomeCarta {
+  position: absolute;
+  margin-left: 8%;
+  color: black;
+  font-size: 100%;
+}
+
+
+
+#caixaDetalhe {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 75%;
+  margin-bottom: 30%;
+  border: 2px solid rgb(52,65,117);
+}
+
+#divCarta {
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  left: 5%;
+}
+
+#mVersao {
+  width: 42%;
+  margin-top: 2vh;
+  margin-left: 29%;
+}
+
+#divDetalhes {
+  position: absolute;
+  width: 50%;
+  height: 80%;
+  left: 40%;
+}
+
+.titDiv {
+  text-align: center;
+  font-size: 140%;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black,
+               1px 1px black, -1px 1px black, 1px -1px black, -1px -1px black;
+  text-decoration: underline solid lightblue;
+}
+
+.image {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 18%;
+}
+
+.txtDetalhe {
+  font-size: 110%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
