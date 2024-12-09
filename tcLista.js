@@ -28,6 +28,7 @@ document.getElementById("mVersao").onclick=function() {
 
 
 document.getElementById("alexandriteDragon").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Alexandrite Dragon";
   detCarta[1] = "Drag\u00e3o de Alexandrita";
   detCarta[2] = "♦ " + "Carta de Monstro Normal";
@@ -40,6 +41,7 @@ document.getElementById("alexandriteDragon").onclick=function() {
   setCard();
 }
 document.getElementById("aquaMadoor").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Aqua Madoor";
   detCarta[1] = "Aqua Madoor";
   detCarta[2] = "♦ " + "Carta de Monstro Normal";
@@ -52,6 +54,7 @@ document.getElementById("aquaMadoor").onclick=function() {
   setCard();
 }
 document.getElementById("battleOx").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Battle Ox";
   detCarta[1] = "Touro Guerreiro";
   detCarta[2] = "♦ " + "Carta de Monstro Normal";
@@ -64,6 +67,7 @@ document.getElementById("battleOx").onclick=function() {
   setCard();
 }
 document.getElementById("bladeKnight").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Blade Knight";
   detCarta[1] = "Cavaleiro da Lâmina";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -76,6 +80,7 @@ document.getElementById("bladeKnight").onclick=function() {
   setCard();
 }
 document.getElementById("blueEyesWhiteDragon").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Blue Eyes White Dragon";
   detCarta[1] = "Drag\u00e3o branco de Olhos Azuis";
   detCarta[2] = "♦ " + "Carta de Monstro Normal";
@@ -91,6 +96,7 @@ document.getElementById("blueEyesWhiteDragon").onclick=function() {
   setCard();
 }
 document.getElementById("chaosNecromancer").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Chaos Necromancer";
   detCarta[1] = "Necromante do Caos";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -103,6 +109,7 @@ document.getElementById("chaosNecromancer").onclick=function() {
   setCard();
 }
 document.getElementById("cyberneticCyclopean").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Cybernetic Cyclopean";
   detCarta[1] = "Ciclope Cibernético";
   detCarta[2] = "♦ " + "Carta de Monstro Efeito";
@@ -115,6 +122,7 @@ document.getElementById("cyberneticCyclopean").onclick=function() {
   setCard();
 }
 document.getElementById("desFeralImp").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Des Feral Imp";
   detCarta[1] = "Demônio Des Feral";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -127,6 +135,7 @@ document.getElementById("desFeralImp").onclick=function() {
   setCard();
 }
 document.getElementById("desMosquito").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Des Mosquito";
   detCarta[1] = "Des Mosquito";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -139,6 +148,7 @@ document.getElementById("desMosquito").onclick=function() {
   setCard();
 }
 document.getElementById("divineDragonApocralyph").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Divine Dragon Apocralyph";
   detCarta[1] = "Dragão Divino Apocralyph";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -151,6 +161,7 @@ document.getElementById("divineDragonApocralyph").onclick=function() {
   setCard();
 }
 document.getElementById("horusTheBlackFlameDragonLV4").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Horus the Black Flame Dragon LV4";
   detCarta[1] = "Horus o Dragão da Chama Negra LV4";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -163,6 +174,7 @@ document.getElementById("horusTheBlackFlameDragonLV4").onclick=function() {
   setCard();
 }
 document.getElementById("horusTheBlackFlameDragonLV6").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Horus the Black Flame Dragon LV6";
   detCarta[1] = "Horus o Dragão da Chama Negra LV6";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -175,6 +187,7 @@ document.getElementById("horusTheBlackFlameDragonLV6").onclick=function() {
   setCard();
 }
 document.getElementById("interplanetarypurplythornyDragon").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Interplanetarypurplythorny Dragon";
   detCarta[1] = "Dragão Interplanetariopurpuraespinhoso";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -187,6 +200,7 @@ document.getElementById("interplanetarypurplythornyDragon").onclick=function() {
   setCard();
 }
 document.getElementById("kaiserSeaHorse").onclick=function() {
+  event.preventDefault();
   detCarta[0] = "Kaiser Sea Horse";
   detCarta[1] = "Cavalo-marinho de Kaiser";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -199,6 +213,7 @@ document.getElementById("kaiserSeaHorse").onclick=function() {
   setCard();
 }
 document.getElementById("laJinnTheMysticalGenieOfTheLamp").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "La Jinn the Mystical Genie of the Lamp";
   detCarta[1] = "La Jinn, o Gênio Místico da Lâmpada";
   detCarta[2] = "♦ " + "Carta de Monstro Normal";
@@ -211,6 +226,7 @@ document.getElementById("laJinnTheMysticalGenieOfTheLamp").onclick=function() {
   setCard();
 }
 document.getElementById("lusterDragon").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Luster Dragon";
   detCarta[1] = "Dragão do Brilho";
   detCarta[2] = "♦ " + "Carta de Monstro Normal";
@@ -223,6 +239,7 @@ document.getElementById("lusterDragon").onclick=function() {
   setCard();
 }
 document.getElementById("madDogOfDarkness").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Mad Dog of Darkness";
   detCarta[1] = "Cão Doido das Trevas";
   detCarta[2] = "♦ " + "Carta de Monstro Normal";
@@ -235,6 +252,7 @@ document.getElementById("madDogOfDarkness").onclick=function() {
   setCard();
 }
 document.getElementById("optclops").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Optclops";
   detCarta[1] = "Opticlope";
   detCarta[2] = "♦ " + "Carta de Monstro Normal";
@@ -247,6 +265,7 @@ document.getElementById("optclops").onclick=function() {
   setCard();
 }
 document.getElementById("puppetPlant").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Puppet Plant";
   detCarta[1] = "Planta Marionete";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -259,6 +278,7 @@ document.getElementById("puppetPlant").onclick=function() {
   setCard();
 }
 document.getElementById("theDragonDwellingInTheCave").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "The Dragon Dwelling in the Cave";
   detCarta[1] = "O Dragão vivendo na Caverna";
   detCarta[2] = "♦ " + "Carta de Monstro Normal";
@@ -271,6 +291,7 @@ document.getElementById("theDragonDwellingInTheCave").onclick=function() {
   setCard();
 }
 document.getElementById("tigerDragon").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Tiger Dragon";
   detCarta[1] = "Dragão Tigre";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -283,6 +304,7 @@ document.getElementById("tigerDragon").onclick=function() {
   setCard();
 }
 document.getElementById("twinHeadedBehemoth").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Twin Headed Behemoth";
   detCarta[1] = "Behemoth de Duas Cabeças";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -295,6 +317,7 @@ document.getElementById("twinHeadedBehemoth").onclick=function() {
   setCard();
 }
 document.getElementById("vanguardOfTheDragon").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Vanguard of the Dragon";
   detCarta[1] = "Vanguarda do Dragão";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -307,6 +330,7 @@ document.getElementById("vanguardOfTheDragon").onclick=function() {
   setCard();
 }
 document.getElementById("vorseRaider").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Vorse Raider";
   detCarta[1] = "Ginete Vorse";
   detCarta[2] = "♦ " + "Carta de Monstro Normal";
@@ -319,6 +343,7 @@ document.getElementById("vorseRaider").onclick=function() {
   setCard();
 }
 document.getElementById("wattaildragon").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Wattaildragon";
   detCarta[1] = "Wattaildragão";
   detCarta[2] = "♦ " + "Carta de Monstro Normal";
@@ -331,6 +356,7 @@ document.getElementById("wattaildragon").onclick=function() {
   setCard();
 }
 document.getElementById("xHeadCannon").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "X Head Cannon";
   detCarta[1] = "Cabeça de Canhão X";
   detCarta[2] = "♦ " + "Carta de Monstro Normal";
@@ -343,6 +369,7 @@ document.getElementById("xHeadCannon").onclick=function() {
   setCard();
 }
 document.getElementById("yomiShip").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "yomiShip";
   detCarta[1] = "Navio Yomi";
   detCarta[2] = "♦ " + "Carta de Monstro de Efeito";
@@ -355,6 +382,7 @@ document.getElementById("yomiShip").onclick=function() {
   setCard();
 }
 document.getElementById("burstStreamOfDestruction").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Burst Stream of Destruction";
   detCarta[1] = "Raio Explosivo de Destruição";
   detCarta[2] = "♦ " + "Carta de Magia";
@@ -367,6 +395,7 @@ document.getElementById("burstStreamOfDestruction").onclick=function() {
   setCard();
 }
 document.getElementById("darkHole").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Dark Hole";
   detCarta[1] = "Buraco Negro";
   detCarta[2] = "♦ " + "Carta de Magia";
@@ -379,6 +408,7 @@ document.getElementById("darkHole").onclick=function() {
   setCard();
 }
 document.getElementById("dragonicTactics").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Dragonic Tactics";
   detCarta[1] = "Táticas Dragônicas";
   detCarta[2] = "♦ " + "Carta de Magia";
@@ -391,6 +421,7 @@ document.getElementById("dragonicTactics").onclick=function() {
   setCard();
 }
 document.getElementById("enemyController").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Enemy Controller";
   detCarta[1] = "Controlador de Inimigos";
   detCarta[2] = "♦ " + "Carta de Magia Rápida";
@@ -403,6 +434,7 @@ document.getElementById("enemyController").onclick=function() {
   setCard();
 }
 document.getElementById("mysticalSpaceTyphoon").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Mystical Space Typhoon";
   detCarta[1] = "Tufão Espacial Místico";
   detCarta[2] = "♦ " + "Carta de Magia Rápida";
@@ -415,6 +447,7 @@ document.getElementById("mysticalSpaceTyphoon").onclick=function() {
   setCard();
 }
 document.getElementById("offeringsToTheDoomed").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Offrings to the Doomed";
   detCarta[1] = "Oferendas aos Condenados";
   detCarta[2] = "♦ " + "Carta de Magia Rápida";
@@ -427,6 +460,7 @@ document.getElementById("offeringsToTheDoomed").onclick=function() {
   setCard();
 }
 document.getElementById("rushRecklessly").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Rush Recklessly";
   detCarta[1] = "Impulso Precipitado";
   detCarta[2] = "♦ " + "Carta de Magia Rápida";
@@ -439,6 +473,7 @@ document.getElementById("rushRecklessly").onclick=function() {
   setCard();
 }
 document.getElementById("shardOfGreed").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Shard of Greed";
   detCarta[1] = "Fragmento de Ganância";
   detCarta[2] = "♦ " + "Carta de Magia Contínua";
@@ -451,6 +486,7 @@ document.getElementById("shardOfGreed").onclick=function() {
   setCard();
 }
 document.getElementById("shieldCrush").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Shield Crush";
   detCarta[1] = "Esmagamar com o Escudo";
   detCarta[2] = "♦ " + "Carta de Magia";
@@ -463,6 +499,7 @@ document.getElementById("shieldCrush").onclick=function() {
   setCard();
 }
 document.getElementById("shrink").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Shrink";
   detCarta[1] = "Encolher";
   detCarta[2] = "♦ " + "Carta de Magia Rápida";
@@ -475,6 +512,7 @@ document.getElementById("shrink").onclick=function() {
   setCard();
 }
 document.getElementById("silentDoom").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Silent Doom";
   detCarta[1] = "Perdição Silenciosa";
   detCarta[2] = "♦ " + "Carta de Magia";
@@ -487,6 +525,7 @@ document.getElementById("silentDoom").onclick=function() {
   setCard();
 }
 document.getElementById("soulExchange").onclick=function() {
+  event.preventDefault();
   detCarta[0] = "Soul Exchange";
   detCarta[1] = "Troca de Almas";
   detCarta[2] = "♦ " + "Carta de Magia";
@@ -499,6 +538,7 @@ document.getElementById("soulExchange").onclick=function() {
   setCard();
 }
 document.getElementById("stampingDestruction").onclick=function() {
+  event.preventDefault();
   detCarta[0] = "Stamping Destruction";
   detCarta[1] = "Destruição com os Pés";
   detCarta[2] = "♦ " + "Carta de Magia Normal";
@@ -511,6 +551,7 @@ document.getElementById("stampingDestruction").onclick=function() {
   setCard();
 }
 document.getElementById("tributeToTheDoomed").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Tribute to the Doomed";
   detCarta[1] = "Tributo aos Condenados";
   detCarta[2] = "♦ " + "Carta de Magia";
@@ -523,6 +564,7 @@ document.getElementById("tributeToTheDoomed").onclick=function() {
   setCard();
 }
 document.getElementById("birthRight").onclick=function() {
+  event.preventDefault();
   detCarta[0] = "Birthright";
   detCarta[1] = "Direito de Nascença";
   detCarta[2] = "♦ " + "Carta de Armadilha Contínua";
@@ -535,6 +577,7 @@ document.getElementById("birthRight").onclick=function() {
   setCard();
 }
 document.getElementById("damageGate").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Damage Gate";
   detCarta[1] = "Avariar Portal";
   detCarta[2] = "♦ " + "Carta de Armadilha";
@@ -547,6 +590,7 @@ document.getElementById("damageGate").onclick=function() {
   setCard();
 }
 document.getElementById("sakuretsuArmor").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Sakuretsu Armor";
   detCarta[1] = "Armadura Sakuretsu";
   detCarta[2] = "♦ " + "Carta de armadilha";
@@ -559,6 +603,7 @@ document.getElementById("sakuretsuArmor").onclick=function() {
   setCard();
 }
 document.getElementById("shadowSpell").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Shadow Spell";
   detCarta[1] = "Feitiço Sombra";
   detCarta[2] = "♦ " + "Carta de Armadilha Contínua";
@@ -571,6 +616,7 @@ document.getElementById("shadowSpell").onclick=function() {
   setCard();
 }
 document.getElementById("threateningRoar").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Threatening Roar";
   detCarta[1] = "Rugido Ameaçador";
   detCarta[2] = "♦ " + "Carta de Armadilha";
@@ -583,6 +629,7 @@ document.getElementById("threateningRoar").onclick=function() {
   setCard();
 }
 document.getElementById("trapHole").onclick=function() {
+  event.preventDefault(); 
   detCarta[0] = "Trap Hole";
   detCarta[1] = "Buraco Armadilha";
   detCarta[2] = "♦ " + "Carta de Armadilha";
@@ -595,6 +642,7 @@ document.getElementById("trapHole").onclick=function() {
   setCard();
 }
 document.getElementById("wideSpreadRuin").onclick=function() {
+  event.preventDefault();
   detCarta[0] = "Widespread Ruin";
   detCarta[1] = "Ruína Generalizada";
   detCarta[2] = "♦ " + "Carta de Armadilha";
